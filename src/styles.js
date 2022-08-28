@@ -37,6 +37,7 @@ export const createButtonStyle = {
     disableHoverListener : false,
     textTransform : "none",
     height : "42px",
+    marginBottom:"50px",
     "&.MuiButton-root:hover" : {
         bgcolor: "#664de5",
     }

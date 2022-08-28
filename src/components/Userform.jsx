@@ -73,7 +73,6 @@ const Userform = () => {
             onClick={handleClick} variant='contained'>{step<3?"Create Workspace":"Launch Eden"}</Button>
           </Container>
         </Container>
-        
       </Container>
       <Snackbar
         open={showError}
