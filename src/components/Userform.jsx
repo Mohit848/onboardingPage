@@ -59,8 +59,8 @@ const Userform = () => {
   }
   return (
     <div>
-      <Container style={{marginTop: "5%", width:"50%"}}>
-        <Typography variant='h5' style={{margin: "90px"}} fontWeight={700}><Box component="img" src={logo} sx={{height:25, paddingRight:1}} />Eden</Typography>
+      <Container style={{maxWidthLg : {marginTop: "5%", width:"50%"}}}>
+        <Typography variant='h5' style={{margin: "50px"}} fontWeight={700}><Box component="img" src={logo} sx={{height:25, paddingRight:1}} />Eden</Typography>
         <Container sx={{marginBottom:"75px"}} maxWidth="sm"><FormProgressBar step={step}/></Container>
         {step===3?<Done sx={{color : "#fff",padding:2,marginTop:"10px", marginBottom:"35px",fontSize:25, backgroundColor:"#664de5", borderRadius:100}}/>:null}
         <Typography variant='h4' style={{marginBottom: "10px"}} fontWeight={600}>{h1Messages[step] + (step===3 ? formData.displayName:"")}!</Typography>

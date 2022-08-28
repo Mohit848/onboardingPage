@@ -8,7 +8,7 @@ const WorkspaceDetails = ({formData, setFormData}) => {
   
   return (
     <Container>
-      <Grid paddingBottom={"10px"} marginBottom={"35px"} container spacing={5} justifyContent={"center"}>
+      <Grid paddingBottom={"10px"} marginBottom={"35px"} container spacing={3} justifyContent={"center"}>
         <Grid item>
           <Card variant="outlined" sx={{maxWidth : "170px",margin:1, "&.MuiCard-root :focus" : {border:"1px solid #664de5", borderRadius:1}}}>
           <CardActionArea onClick={()=>{setFormData({...formData, useCaseChoice : "personal"})}}>
